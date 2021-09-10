@@ -1,0 +1,17 @@
+{
+  "name": "botnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "Bernardo Sampaio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "discord.js": "12.5.3",
+    "emoji-js": "^3.6.0",
+    "store": "^2.0.12"
+  }
+}

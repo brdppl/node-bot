@@ -106,6 +106,15 @@ const commands = {
             list: ['moeda1', 'moeda2']
         },
         description: 'Converta moedas (use o código da moeda ex.: BRL)'
+    },
+    soccer: {
+        command: 'futebol',
+        aliases: ['fut', 'soccer'],
+        args: {
+            required: false,
+            list: ['campeonato']
+        },
+        description: 'Saiba o resultado dos jogos (use o código do campeonato ex.: BSA)'
     }
 }
 

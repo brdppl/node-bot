@@ -121,7 +121,7 @@ client.on('message', async msg => {
                 return
             }
 
-            embed.setImage(`http://clanpauamarelo.com/assets/img/ranks/${player.sobre.patente}.png`)
+            embed.setImage(`https://clanpauamarelo.com.br/assets/img/ranks/${player.sobre.patente}.png`)
             msg.channel.send(`${player.nick} é:`, embed)
         }
     }

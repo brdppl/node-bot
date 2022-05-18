@@ -25,7 +25,7 @@ module.exports = async (commands, command, args, arg1, msg) => {
                     - Mínima: ${Math.round(data.main.temp_min)}ºC
                     - Máxima: ${Math.round(data.main.temp_max)}ºC
                     - Barômetro: ${data.main.pressure} mb
-                    - Humidade: ${data.main.humidity}%
+                    - Umidade: ${data.main.humidity}%
                     - Visibilidade: ${Number(data.visibility/1000)} km
                 `)
             } catch(e) {
